@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 890ms :: artifacts dl 18ms
+[debug] :: resolution report :: resolve 1025ms :: artifacts dl 22ms
 [debug] 	report for default#sbt-workspace$sbt_2.11;1.0 default produced in /home/username/git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sbt_2.11-default.xml
-[debug] 	resolve done (890ms resolve - 18ms download)
+[debug] 	resolve done (1025ms resolve - 22ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#sbt-workspace$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1000,11 +1000,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.8
 [debug] 	found org.scala-sbt#logic;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#sbt-workspace$sources_2.11;1.0->org.scala-sbt#compiler-interface;0.13.8 [default->default(compile)]
-[info] Resolving org.scala-sbt#compiler-interface;0.13.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.8 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.8
-[debug] 	found org.scala-sbt#compiler-interface;0.13.8 in sbt-chain
 [debug] == resolving dependencies default#sbt-workspace$sources_2.11;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.13.8 {default=[default(compile)]}
@@ -1070,52 +1065,10 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.8!main-settings.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.8!command.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/srcs/logic-sources.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/srcs/logic-sources.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/srcs/logic-sources.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/srcs/logic-sources.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/0.13.8/srcs/logic-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#logic;0.13.8!logic.jar(src) (2257ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] 		tried /home/username/.ivy2/local/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[warn] 	[FAILED     ] org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src):  (0ms)
-[warn] ==== typesafe-ivy-releases: tried
-[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[warn] ==== sbt-plugin-releases: tried
-[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[warn] ==== local: tried
-[warn]   /home/username/.ivy2/local/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src) (1128ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/srcs/precompiled-2_9_2-sources.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/srcs/precompiled-2_9_2-sources.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/srcs/precompiled-2_9_2-sources.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/srcs/precompiled-2_9_2-sources.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/srcs/precompiled-2_9_2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src) (303ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/srcs/precompiled-2_9_3-sources.jar
-[info] downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/srcs/precompiled-2_9_3-sources.jar ...
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/srcs/precompiled-2_9_3-sources.jar
-[debug] 	typesafe-ivy-releases: downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/srcs/precompiled-2_9_3-sources.jar.sha1
-[debug] sha1 OK for https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/srcs/precompiled-2_9_3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src) (2385ms)
-[debug] :: resolution report :: resolve 139ms :: artifacts dl 6580ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
+[debug] :: resolution report :: resolve 149ms :: artifacts dl 27ms
 [debug] 	report for default#sbt-workspace$sources_2.11;1.0 default produced in /home/username/git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sources_2.11-default.xml
-[debug] 	resolve done (139ms resolve - 6580ms download)
+[debug] 	resolve done (149ms resolve - 27ms download)
