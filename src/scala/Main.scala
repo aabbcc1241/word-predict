@@ -1,1 +1,1 @@
-object Main{}
+object ScalaMain {}
