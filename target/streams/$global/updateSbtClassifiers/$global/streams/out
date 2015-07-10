@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1025ms :: artifacts dl 22ms
-[debug] 	report for default#sbt-workspace$sbt_2.11;1.0 default produced in /home/username/git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sbt_2.11-default.xml
-[debug] 	resolve done (1025ms resolve - 22ms download)
+[debug] :: resolution report :: resolve 855ms :: artifacts dl 39ms
+[debug] 	report for default#sbt-workspace$sbt_2.11;1.0 default produced in /home/username/.git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sbt_2.11-default.xml
+[debug] 	resolve done (855ms resolve - 39ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#sbt-workspace$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 149ms :: artifacts dl 27ms
-[debug] 	report for default#sbt-workspace$sources_2.11;1.0 default produced in /home/username/git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sources_2.11-default.xml
-[debug] 	resolve done (149ms resolve - 27ms download)
+[debug] :: resolution report :: resolve 126ms :: artifacts dl 15ms
+[debug] 	report for default#sbt-workspace$sources_2.11;1.0 default produced in /home/username/.git/workspace/sbt-workspace/target/resolution-cache/reports/default-sbt-workspace$sources_2.11-default.xml
+[debug] 	resolve done (126ms resolve - 15ms download)

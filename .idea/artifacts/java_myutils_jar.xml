@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-myutils:jar">
+    <output-path>$PROJECT_DIR$/lib/java-myutils</output-path>
+    <root id="archive" name="java-myutils.jar">
+      <element id="module-output" name="java-myutils" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/jsch-0.1.51.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/javaee-api-5.0-2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/json4s-core_2.11-3.2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/mariadb-java-client-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/mysql-connector-java-5.1.34-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/opengl/lwjgl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-myutils/lib/opengl/disruptor.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-actors.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-parser-combinators_2.11-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-swing_2.11-1.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-library.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-xml_2.11-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/scala/lib/scala-reflect.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

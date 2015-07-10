@@ -1,0 +1,3 @@
+[submodule "lib/java-myutils"]
+	path = lib/java-myutils
+	url = /home/username/git/repo/java-myutils

@@ -4,7 +4,7 @@
 		module="sbt-workspace$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150705044506"
+		publication="20150705051604"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

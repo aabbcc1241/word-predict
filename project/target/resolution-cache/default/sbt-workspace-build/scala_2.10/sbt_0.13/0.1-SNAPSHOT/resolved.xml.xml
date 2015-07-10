@@ -4,7 +4,7 @@
 		module="sbt-workspace-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150705043854"
+		publication="20150705051549"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
