@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/lib/java-myutils/java-myutils.iml" filepath="$PROJECT_DIR$/lib/java-myutils/java-myutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sbt-workspace.iml" filepath="$PROJECT_DIR$/.idea/modules/sbt-workspace.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sbt-workspace-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sbt-workspace-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/word-predict.iml" filepath="$PROJECT_DIR$/.idea/modules/word-predict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/word-predict-build.iml" filepath="$PROJECT_DIR$/.idea/modules/word-predict-build.iml" />
     </modules>
   </component>
 </project>

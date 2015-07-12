@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/.git/workspace/sbt-workspace" />
-            <option value="$USER_HOME$/.git/workspace/sbt-workspace/project" />
+            <option value="$USER_HOME$/.git/workspace/word-predict" />
+            <option value="$USER_HOME$/.git/workspace/word-predict/project" />
           </set>
         </option>
         <option name="resolveClassifiers" value="true" />
